@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "no-debugger": "error",
+    "no-console": "error",
+    "prettier/prettier": "error"
+  }
+}
